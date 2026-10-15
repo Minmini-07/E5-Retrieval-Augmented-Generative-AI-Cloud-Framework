@@ -1,0 +1,43 @@
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Solar datasets and generated data
+data/
+dataset/raw/
+dataset/processed/
+dataset/*.csv
+dataset/*.parquet
+
+# Generated results and plots (keep local)
+results/*.csv
+results/*.parquet
+results/*.png
+results/*.jpg
+results/*.pdf
+results/*.json
+
+# Trained model files (keep local)
+models/
+*.joblib
+*.pkl
+*.h5
+*.keras
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local results and exploratory outputs
+results/
+src_backup_before_git/
