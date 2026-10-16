@@ -94,6 +94,7 @@ GreenRAG-Sec provides a secure, trustworthy, evidence-grounded AI assistant for 
   - `security/trust_engine/scoring.py`
   - `security/trust_engine/decision_validator.py`
 - **Testing & Benchmarks:**
+  - `.gitignore` (Python bytecode, pytest cache & model binary exclusion)
   - `pytest.ini`
   - `tests/conftest.py`
   - `tests/security/test_telemetry_attacks.py`

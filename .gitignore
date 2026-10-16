@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Model binaries and large artifacts
+models/
+*.joblib
+*.pkl
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Large datasets and results
+dataset/raw/
+dataset/processed/
+dataset/*.csv
+dataset/*.parquet
+results/*.csv
+results/*.png
+results/*.jpg
+
+# Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
