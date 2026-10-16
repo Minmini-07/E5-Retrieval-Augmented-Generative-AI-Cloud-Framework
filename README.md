@@ -8,7 +8,7 @@ A Secure Retrieval-Augmented Generative AI Cloud Framework for Intelligent Renew
 |------|-------------|------|
 | Minmini K | 23BIT0198 | Literature Survey (Papers 1-5), Frontend, Database |
 | Tarunica Senthil | 23BIT0185 | Literature Survey (Papers 6-10), Backend, Architecture |
-| TBD | TBD | Literature Survey (Papers 11-15), AI Models, Azure Infra |
+| Pritika Kasinathan | 23BIT0232 | Literature Survey (Papers 11-15), AI Models, Azure Infra |
 
 ## Problem Statement
 Renewable energy operators managing solar farms and wind parks rely on manual lookups through scattered equipment manuals, spreadsheets and SCADA exports to diagnose faults, forecast generation and plan maintenance. Large language models can automate this, but without grounding in actual technical documents they produce unreliable answers. Existing RAG implementations are single-domain, single-deployment systems with static corpora and no shared infrastructure — every new energy sub-domain is a separate engineering project.
